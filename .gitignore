@@ -1,0 +1,5 @@
+*.gz
+*.xz
+*.swp
+*.rpm
+/kdump-anaconda-addon-005-31-g31ab4b7.tar.gz
