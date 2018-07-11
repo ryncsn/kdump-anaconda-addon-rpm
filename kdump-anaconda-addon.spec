@@ -11,8 +11,9 @@ Summary: Kdump configuration anaconda addon
 
 BuildArch: noarch
 Requires: anaconda >= 21.33
+Requires: hicolor-icon-theme
 BuildRequires: intltool gettext
-Obsoletes: kexec-tools-anaconda-addon <= 2.0.17-3
+Obsoletes: kexec-tools-anaconda-addon <= 2.0.17-5
 Provides: kexec-tools-anaconda-addon = %{version}-%{release}
 
 Source0: https://github.com/daveyoung/kdump-anaconda-addon/archive/%{gitcommit}/kdump-anaconda-addon-%{gitshortcommit}.tar.gz
